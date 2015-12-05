@@ -1,3 +1,8 @@
+## Specific to jekyll:
+/_site
+/_vendor
+/.sass-cache
+
 *.gem
 *.rbc
 /.config
