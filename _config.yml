@@ -1,19 +1,66 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+url: http://www.artduvinwinebar.com
+baseurl: 
 
 # Site settings
 title: Art Du Vin Winebar
 email: info@artduvinwinebar.com
-description: > # this means to ignore newlines until "baseurl:"
-  Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the “Cheers” of wine bars in Long Beach. Open 5pm to midnight, 7 days a week.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://artduvinwinebar.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+description: "Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the “Cheers” of wine bars in Long Beach. Open 5pm to midnight, 7 days a week."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: ff9900
+  secondary: fec503  
+  secondary-dark: 333
+
+# Team names, titles and social links
+people:
+- name: Stephanie Blakeslee
+  pic: 1
+  position: Owner, Sommelier
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Byron Brno
+  pic: 2
+  position: Manager
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Shauna
+  pic: 3
+  position: Bartender
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/stephanie_adv
+  - title: facebook
+    url: https://www.facebook.com/ArtDuVin/
+  - title: instagram
+    url: https://instagram.com/artduvin
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 2027 E. 4th Street
+  - line: Long Beach, CA 90814
 
 # Build settings
 markdown: kramdown
+permalink: pretty
