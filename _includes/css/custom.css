@@ -2,7 +2,17 @@
     text-shadow: 1px 1px 8px rgba(150, 150, 150, 1);
 }
 
-
 header {
-    background-image: url(img/adv_logo.png);
+    background-image: none;
+}
+
+section#contact {
+    background-color: #222;
+    background-image: url(img/map-image_plain_30.png);
+    background-repeat: repeat;
+}
+
+a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand {
+    /*color: #{{ site.color.title }};*/
+    color: #ffffff;
 }

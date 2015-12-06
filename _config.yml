@@ -2,15 +2,23 @@ url: http://www.artduvinwinebar.com
 baseurl: 
 
 # Site settings
-title: Art Du Vin Winebar
+title: Art Du Vin
 email: info@artduvinwinebar.com
 description: "Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the “Cheers” of wine bars in Long Beach. Open 5pm to midnight, 7 days a week."
+copyright: "&copy; Art Du Vin, 2015"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: "950201"
-  secondary: fec503  
-  secondary-dark: 333
+  secondary: "D57F37"  
+  secondary-dark: "954401"
+  title: "da0301"
+
+# color:
+#   primary: "950201"
+#   secondary: fec503  
+#   secondary-dark: 333
+#   title: "da0301"
 
 # Team names, titles and social links
 people:
@@ -27,7 +35,7 @@ people:
 
 
 - name: Byron Brno
-  pic: 2
+  pic: 4
   position: Manager
   social:
     - title: twitter
@@ -38,7 +46,7 @@ people:
       url: #
 
 
-- name: Shauna
+- name: Shauna Sutera
   pic: 3
   position: Bartender
   social:
@@ -66,3 +74,8 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+
+
+# Do not copy these file to the output directory
+exclude: ["deploy", "Gemfile*", ".gitignore"]

@@ -1,0 +1,16 @@
+---
+title: Cane & Fable 395 Merlot
+category: Wine of the Month
+layout: default
+modal-id: 1
+date: 2015-03-25
+img: canefable-395.jpg
+thumbnail: canefable-395-thumbnail.png
+alt: 
+month: March 2015
+varietal: Merlot
+color: Red
+description: "Merlot has had a bad reputation since the movie Sideways, and that is far too long for us at Art du Vin. A relatively easy-to-plant grape—it is cultivated all over the world—bearing many inconsistent examples, but it is a “noble” varietal, after all, and the Cain & Fable 395 exemplifies its blue-blooded roots and results.
+
+A collaboration between two Central Coast winemakers—Curt Schalclin and Andrew Jones—crafted a blend of 84% Merlot, 7% Malbec, 6% Cabernet Sauvignon and 3% Tempranillo all sourced from Paso Robles. The wine was aged in oak barrique (25% new) for 15 months, lending an alluring sweet spice to the roasted plums, blueberry compote and black tea notes on a long and seductive finish. Steak anyone?"
+---
