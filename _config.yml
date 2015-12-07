@@ -2,10 +2,14 @@ url: http://www.artduvinwinebar.com
 baseurl: 
 
 # Site settings
-title: Art Du Vin
-email: info@artduvinwinebar.com
-description: "Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the “Cheers” of wine bars in Long Beach. Open 5pm to midnight, 7 days a week."
-copyright: "&copy; Art Du Vin, 2015"
+title: 'Art Du Vin'
+tagline: 'Cutest little wine bar in Long Beach'
+title_long: 'Art Du Vin - Cutest little wine bar in Long Beach'
+email: 'info@artduvinwinebar.com'
+description: 'Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the "Cheers" of wine bars in Long Beach. Open 5pm to midnight, 7 days a week.'
+keywords: 'wine, bar, beer, cider, charcuterie, cheese, meat, salami, homemade, bread'
+copyright: '&copy; Art Du Vin, 2015'
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -14,48 +18,36 @@ color:
   secondary-dark: "954401"
   title: "da0301"
 
-# color:
-#   primary: "950201"
-#   secondary: fec503  
-#   secondary-dark: 333
-#   title: "da0301"
 
 # Team names, titles and social links
 people:
 - name: Stephanie Blakeslee
-  pic: 1
-  position: Owner, Sommelier
+  pic: 'stephanie.jpg'
+  position: 'Owner, Sommelier'
   social:
     - title: twitter
-      url: #
+      url: https://twitter.com/stephanie_adv
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
+      url: https://www.facebook.com/Stephanie.adv
+    - title: instagram
+      url: https://instagram.com/artduvin
 
 - name: Byron Brno
-  pic: 4
+  pic: 'byron.jpg'
   position: Manager
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+      url: https://www.facebook.com/byron.brno
 
 
 - name: Shauna Sutera
-  pic: 3
+  pic: 'shauna.jpg'
   position: Bartender
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+      url: https://www.facebook.com/shauna.sutera
+    - title: instagram
+      url: https://www.instagram.com/shauuuna/
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

@@ -1,6 +1,3 @@
-.intro-lead-in {
-    text-shadow: 1px 1px 8px rgba(150, 150, 150, 1);
-}
 
 header {
     background-image: none;
@@ -12,7 +9,19 @@ section#contact {
     background-repeat: repeat;
 }
 
+.section-heading {
+    text-align: center;
+}
+
 a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand {
     /*color: #{{ site.color.title }};*/
     color: #ffffff;
+}
+
+.subscribe-body {
+    text-align: left;
+}
+
+section#splash {
+    padding-top: 50px;
 }
