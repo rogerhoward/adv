@@ -1,6 +1,5 @@
-<!-- Splash Section -->
+<!--Splash Section -->
 <section id="splash" class="container" style="text-align: center;">
-
 
     <div class="row">
 
@@ -16,30 +15,30 @@
 
     </div>
 
-
-    <div class="row">
+    <div class="row splash-stack">
 
         <div class="col-md-3" style="text-align: center;">
-            5pm to Midnight, Every Day<br>
-            2027 E. 4th St., Long Beach
-            <hr>
+            <button href="#gmap" class="btn btn-sm btn-info btn-block" data-toggle="modal">
+                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                2027 E. 4th St., Long Beach
+            </button>
+            {% include map_modal.html %}
         </div>
 
         <div class="col-md-6" style="text-align: center;">
-            <div class="intro-text">
-                <a href="#menu" class="page-scroll btn btn-primary">Menu</a>
-                <a href="#specials" class="page-scroll btn btn-primary">Specials</a>
-                <a href="#about" class="page-scroll btn btn-primary">About</a>
-            </div>
-            <hr>
+            {% include buttons.html %}
         </div>
 
         <div class="col-md-3" style="text-align: center;">
             {% include follow.html %}
-            <hr>
         </div>
 
     </div>
 
+    <div class="row">
+        Open 5pm until Midnight, Every Day
+        <hr>
+    </div>
+
 </section>
-<!-- /Splash Section -->
+<!-- /Splash Section

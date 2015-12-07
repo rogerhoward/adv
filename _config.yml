@@ -10,6 +10,9 @@ description: 'Art Du Vin is a European-style wine bar on Retro Row in Long Beach
 keywords: 'wine, bar, beer, cider, charcuterie, cheese, meat, salami, homemade, bread'
 copyright: '&copy; Art Du Vin, 2015'
 
+# Keys for APIs
+keys:
+  google: "AIzaSyC6x0r_NERrUs5U8pzj3NsFvjCoBBH_iuU"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -18,11 +21,10 @@ color:
   secondary-dark: "954401"
   title: "da0301"
 
-
 # Team names, titles and social links
 people:
 - name: Stephanie Blakeslee
-  pic: 'stephanie.jpg'
+  pic: 'stephanie_sm.jpg'
   position: 'Owner, Sommelier'
   social:
     - title: twitter
@@ -33,7 +35,7 @@ people:
       url: https://instagram.com/artduvin
 
 - name: Byron Brno
-  pic: 'byron.jpg'
+  pic: 'byron_sm.jpg'
   position: Manager
   social:
     - title: facebook
@@ -41,7 +43,7 @@ people:
 
 
 - name: Shauna Sutera
-  pic: 'shauna.jpg'
+  pic: 'shauna_sm.jpg'
   position: Bartender
   social:
     - title: facebook

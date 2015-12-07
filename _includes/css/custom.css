@@ -3,25 +3,49 @@ header {
     background-image: none;
 }
 
+
+/* All section settingd */
+.section-heading {
+    text-align: center;
+}
+
+/* Fix contact design */
 section#contact {
     background-color: #222;
     background-image: url(img/map-image_plain_30.png);
     background-repeat: repeat;
 }
 
-.section-heading {
-    text-align: center;
-}
-
+/* Fix brand link color */
 a:link.navbar-brand, a:visited.navbar-brand, a:hover.navbar-brand {
-    /*color: #{{ site.color.title }};*/
     color: #ffffff;
 }
 
+/* Subscribe */
 .subscribe-body {
     text-align: left;
 }
 
+
+/* Splash */
 section#splash {
-    padding-top: 50px;
+    padding-top: 60px;
+}
+
+.splash-stack > div {
+    padding-bottom: 20px;
+}
+
+.splash-buttons > .btn {
+    margin-bottom: 8px;
+}
+
+/* Media */
+
+.media-object {
+    max-width: 300px;
+}
+
+.media-body {
+    text-align: left;
 }

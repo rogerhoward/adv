@@ -1,5 +1,5 @@
-<!-- Team Section -->
-    <section id="team" class="container bg-light-gray">
+<!-- Staff Section -->
+    <section id="staff" class="container bg-light-gray">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Our Team</h2>
@@ -10,7 +10,7 @@
                 {% for member in site.people %}
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/{{ member.pic }}" class="img-responsive img-circle" alt="">
+                        <img src="img/staff/{{ member.pic }}" class="img-responsive img-circle" alt="">
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
@@ -24,4 +24,4 @@
                 {% endfor %}
             </div>
     </section>
-<!-- /Team Section
+<!-- /Staff Section

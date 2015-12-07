@@ -8,29 +8,40 @@
                     </div>
                 </div>
             </div>
+
+            <hr class="star-primary">
+
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="img/club/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Month:
-                                    <strong><a href="http://startbootstrap.com">{{ post.month }}</a>
-                                    </strong>
-                                </li>
-                                <li>Varietal:
-                                    <strong><a href="http://startbootstrap.com">{{ post.varietal }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                    <div class="media">
+                      <div class="media-left">
+                        <a href="#">
+                          <img class="media-object" src="img/blog/{{ post.img }}" alt="{{ post.alt }}">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">{{ post.varietal }}, {{ post.month}} - {{ post.title }}</h4>
+
+                        {{ post.description }}
+                      </div>
+                    </div>
+
+                    <hr class="star-primary">
+
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
                         </div>
                     </div>
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
                 </div>
             </div>
+
+
         </div>
     </div>
 {% endfor %}
