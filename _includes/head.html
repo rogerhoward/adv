@@ -1,26 +1,19 @@
 <head>
     <meta charset="utf-8">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    
     <meta name="viewport" content="width=device-width">
-
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" itemprop="keywords" content="{{ site.keywords }}" />
-
     <meta property="og:title" content="{{ site.title_long }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:image" content="img/396871_10150479408347895_38135823_n.jpg" />
     <meta property="og:site_name" content="{{ site.title_long }}" />
     <meta property="og:description" content="{{ site.description }}" />
-
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="{{ site.description }}" />
-
     <meta itemprop="image" content="img/396871_10150479408347895_38135823_n.jpg" />
-
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 

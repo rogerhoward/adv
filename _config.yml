@@ -13,6 +13,7 @@ copyright: '&copy; Art Du Vin, 2015'
 # Keys for APIs
 keys:
   google: "AIzaSyC6x0r_NERrUs5U8pzj3NsFvjCoBBH_iuU"
+  google_analytics: "UA-57383324-1"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
