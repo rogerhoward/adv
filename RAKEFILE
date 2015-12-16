@@ -2,8 +2,8 @@ desc 'Publishing the website via rsync'
 task :deploy do
   puts 'Publishing your website, silence is golden...'
   user = 'rogerhoward'
-  server = '104.236.245.161'
-  path = '/var/www/dev.artduvinwinebar.com'
+  server = 'rogerhoward.name'
+  path = '/var/www/artduvinwinebar.com/'
   sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
   puts 'Your website is now published! Please visit at http://dev.artduvinwinebar.com'
 end
