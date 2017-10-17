@@ -1,19 +1,78 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+url: http://www.artduvinwinebar.com
+baseurl: 
 
 # Site settings
-title: Art Du Vin Winebar
-email: info@artduvinwinebar.com
-description: > # this means to ignore newlines until "baseurl:"
-  Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the “Cheers” of wine bars in Long Beach. Open 5pm to midnight, 7 days a week.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://artduvinwinebar.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: 'Art Du Vin'
+tagline: 'Cutest little wine bar in Long Beach'
+title_long: 'Art Du Vin - Cutest little wine bar in Long Beach'
+email: 'info@artduvinwinebar.com'
+description: 'Art Du Vin is a European-style wine bar on Retro Row in Long Beach known for its cozy atmosphere and unique wine, beer, meat and cheese. We are the "Cheers" of wine bars in Long Beach. Tuesday through Friday, 5pm - midnight; Saturday, noon - midnight; Sunday, noon - 10pm; Monday, 5 - 10pm.'
+keywords: 'wine, bar, beer, cider, charcuterie, cheese, meat, salami, bread'
+copyright: '&copy; Art Du Vin, 2017'
+
+# Keys for APIs
+keys:
+  google: "AIzaSyC6x0r_NERrUs5U8pzj3NsFvjCoBBH_iuU"
+  google_analytics: "UA-57383324-1"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: "950201"
+  secondary: "D57F37"  
+  secondary-dark: "954401"
+  title: "da0301"
+
+# Team names, titles and social links
+people:
+- name: Stephanie Blakeslee
+  pic: 'stephanie_sm.jpg'
+  position: 'Owner, Sommelier'
+  social:
+    - title: twitter
+      url: https://twitter.com/stephanie_adv
+    - title: facebook
+      url: https://www.facebook.com/Stephanie.adv
+    - title: instagram
+      url: https://instagram.com/artduvin
+
+- name: Byron Brno
+  pic: 'byron_sm.jpg'
+  position: Manager
+  social:
+    - title: facebook
+      url: https://www.facebook.com/byron.brno
+    - title: instagram
+      url: https://www.instagram.com/onelordbyron
+
+
+- name: Shauna Sutera
+  pic: 'shauna_sm.jpg'
+  position: Bartender
+  social:
+    - title: facebook
+      url: https://www.facebook.com/shauna.sutera
+    - title: instagram
+      url: https://www.instagram.com/shauuuna
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/stephanie_adv
+  - title: facebook
+    url: https://www.facebook.com/ArtDuVin/
+  - title: instagram
+    url: https://instagram.com/artduvin
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 2027 E. 4th Street
+  - line: Long Beach, CA 90814
 
 # Build settings
 markdown: kramdown
+permalink: pretty
+
+
+
+# Do not copy these file to the output directory
+exclude: ["deploy", "Gemfile*", ".gitignore"]
